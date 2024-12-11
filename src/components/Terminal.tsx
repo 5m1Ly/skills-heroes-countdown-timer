@@ -67,7 +67,7 @@ export default function Terminal() {
                     <span>
                         Welcome to the countdown terminal!
                         <br />
-                        Type "help" for a list of commands
+                        Type &quot;help&quot; for a list of commands
                         <br />
                         <br />
                     </span>
