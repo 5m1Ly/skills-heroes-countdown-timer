@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function Terminal() {
 
-    const totalTime = 14400;
+    const time = [1800, 14400];
 
-    const [timeLeft, setTimeLeft] = React.useState(totalTime);
+    const [timeLeft, setTimeLeft] = React.useState(time[0]);
     const [finished, setFinished] = React.useState(false);
     const [lines, setLines] = React.useState(new Set<string>());
 
